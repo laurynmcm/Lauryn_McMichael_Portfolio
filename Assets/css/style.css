@@ -1,0 +1,126 @@
+header{
+    background-color: rgba(209, 95, 91, 0.781);
+    color: cornsilk;
+    font-style: italic;
+    display: block;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color:  rgba(209, 95, 91, 0.541);
+    color: cornsilk;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+h2{
+    display: flex;
+    margin-top: 50px;;
+    justify-content: center;
+    color: cornsilk;
+    background-color: rgba(209, 95, 91, 0.541);
+}
+
+#aboutMe{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 50%;
+    
+}
+
+p{
+    width: 500px;
+    text-align: center;
+    background-color: rgba(209, 95, 91, 0.541);
+    color: cornsilk;
+}
+
+#work{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#repositoryImage{
+    width:300px;
+}
+
+#placeholder{
+    width:300px;
+}
+
+#repositoryImage:hover{
+    width: 450px;
+}
+
+#placeholder:hover{
+    width: 450px;
+}
+
+#contactMe{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(209, 95, 91, 0.541);
+    height: 50px;
+}
+
+a{
+    color: cornsilk;
+}
+
+
+
+body{
+    background-image: url(https://pub-static.fotor.com/static/web/site/features/backgrounds/images/Fotor-wall-background-image-6.jpg);
+}
+
+@media screen and (max-width: 1150px) {
+    #aboutMe, 
+    #work,
+    #contactMe {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+    #aboutMe, 
+    #work,
+    #contactMe {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) and (max-height: 700px) {
+    #aboutMe, 
+    #work,
+    #contactMe {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header,
+    nav,
+    h2,
+    #contactMe{
+        margin-right: -145px;
+    }
+
+    p{
+        margin-left: 150px;
+        width: 400px;
+    }
+
+    #profilepic{
+        width: 400px;
+        margin-left: 150px;
+
+    }
+}
