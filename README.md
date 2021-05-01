@@ -1,7 +1,7 @@
 # Lauryn_McMichael_Portfolio
 This is a basic portfolio meant to display my knowledge in full stack web development
 
-![alt text](https://github.com/laurynmcm/Lauryn_McMichael_Portfolio/blob/master/Screenshot%20(2).png?raw=true)
+![alt text](https://github.com/laurynmcm/Lauryn_McMichael_Portfolio/blob/master/Screenshot%20(25).png?raw=true)
 
 This website includes a title, working nav bar, about me, interactive link images and a contact me.
 
