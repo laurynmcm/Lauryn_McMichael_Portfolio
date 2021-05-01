@@ -1,6 +1,6 @@
 header{
-    background-color: rgba(209, 95, 91, 0.781);
-    color: cornsilk;
+    background-color: rgba(0, 0, 0, 0.788);
+    color: rgb(255, 255, 255);
     font-style: italic;
     display: block;
     height: 60px;
@@ -10,19 +10,24 @@ header{
 }
 
 nav{
-    background-color:  rgba(209, 95, 91, 0.541);
-    color: cornsilk;
+    background-color:  rgba(0, 0, 0, 0.541);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
 
+}
+
+#profilepic{
+    width: 30%;
+    border: 5px solid rgb(0, 0, 0);
 }
 
 h2{
     display: flex;
     margin-top: 50px;;
     justify-content: center;
-    color: cornsilk;
-    background-color: rgba(209, 95, 91, 0.541);
+    color: rgb(252, 252, 252);
+    background-color: rgba(0, 0, 0, 0.863);
 }
 
 #aboutMe{
@@ -34,10 +39,11 @@ h2{
 }
 
 p{
-    width: 500px;
+    width: 40%;
+    font-size: 20px;
     text-align: center;
-    background-color: rgba(209, 95, 91, 0.541);
-    color: cornsilk;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: rgb(255, 255, 255);
 }
 
 #work{
@@ -66,18 +72,18 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: rgba(209, 95, 91, 0.541);
+    background: rgba(8, 8, 8, 0.541);
     height: 50px;
 }
 
 a{
-    color: cornsilk;
+    color: rgb(255, 255, 255);
 }
 
 
 
 body{
-    background-image: url(https://pub-static.fotor.com/static/web/site/features/backgrounds/images/Fotor-wall-background-image-6.jpg);
+    background-image: url(https://wallpaperaccess.com/full/1286235.jpg);
 }
 
 @media screen and (max-width: 1150px) {
@@ -115,7 +121,7 @@ body{
 
     p{
         margin-left: 150px;
-        width: 400px;
+        width: 60%;
     }
 
     #profilepic{
